@@ -15,12 +15,23 @@
         header {
             background: #1f2937;
             color: white;
-            padding: 30px;
+            padding: 40px;
             text-align: center;
         }
 
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
         section {
-            max-width: 800px;
+            max-width: 900px;
             margin: 20px auto;
             background: white;
             padding: 20px;
@@ -35,14 +46,21 @@
         .project {
             background: #f9fafb;
             padding: 15px;
-            margin-top: 10px;
+            margin-top: 15px;
             border-radius: 8px;
+        }
+
+        .project h3 {
+            margin-top: 0;
         }
 
         .contact {
             text-align: center;
         }
 
+        a {
+            color: #2563eb;
+        }
     </style>
 </head>
 
@@ -57,7 +75,7 @@
     <h2>Sobre mí</h2>
     <p>
         Soy un aspirante a Data Analyst enfocado en análisis de datos, visualización y resolución de problemas de negocio.
-        Actualmente estoy construyendo proyectos prácticos con Python.
+        Actualmente estoy desarrollando proyectos prácticos utilizando Python y herramientas de análisis de datos.
     </p>
 </section>
 
@@ -66,12 +84,22 @@
 
     <div class="project">
         <h3>E-commerce Funnel Analysis</h3>
-        <p>Análisis del comportamiento de usuarios en un e-commerce para detectar puntos de abandono en el embudo de conversión.</p>
+
+        <p><strong>Contexto:</strong> Análisis del comportamiento de usuarios en un e-commerce para entender el abandono en el embudo de conversión.</p>
+
+        <p><strong>Análisis:</strong> Se realizó limpieza de datos, análisis exploratorio y visualización de tasas de conversión por etapa del funnel usando Python.</p>
+
+        <p><strong>Conclusiones:</strong> Se identificaron puntos críticos de abandono en el proceso de pago, lo que sugiere mejoras en la experiencia de usuario.</p>
     </div>
 
     <div class="project">
         <h3>Urban Mobility Analysis</h3>
-        <p>Análisis de tráfico y economía urbana usando datos reales para identificar patrones de movilidad.</p>
+
+        <p><strong>Contexto:</strong> Estudio de la relación entre tráfico urbano y variables económicas en diferentes ciudades.</p>
+
+        <p><strong>Análisis:</strong> Se utilizaron datasets públicos para analizar patrones de movilidad y su relación con indicadores económicos.</p>
+
+        <p><strong>Conclusiones:</strong> Se observó que ciudades con mayor congestión presentan mayor actividad económica, pero menor eficiencia en movilidad.</p>
     </div>
 
 </section>
@@ -80,6 +108,7 @@
     <h2>Contacto</h2>
     <p>Email: juanestebanochoaosorio@gmail.com</p>
     <p>GitHub: juanochoa-data</p>
+    <p>Portafolio: <a href="https://juanochoa-data.github.io/" target="_blank">Ver sitio web</a></p>
 </section>
 
 </body>
