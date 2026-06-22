@@ -64,17 +64,17 @@
             margin-right: 5px;
         }
 
+        img {
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
         .contact {
             text-align: center;
         }
 
         a {
             color: #2563eb;
-        }
-
-        img {
-            margin-top: 10px;
-            border-radius: 8px;
         }
 
         footer {
@@ -96,15 +96,15 @@
 <section>
     <h2>Sobre mí</h2>
     <p>
-        Soy un aspirante a Data Analyst enfocado en análisis de datos, inteligencia de negocio y visualización.
-        He trabajado en proyectos de análisis financiero, comportamiento de usuarios, retención y desempeño de plataformas digitales utilizando SQL y Python.
+        Aspirante a Data Analyst enfocado en análisis de datos, inteligencia de negocio y visualización.
+        Experiencia en SQL, Python y dashboards para toma de decisiones basadas en datos.
     </p>
 </section>
 
 <section>
     <h2>Proyectos</h2>
 
-    <!-- 1 ADVENTURE WORKS -->
+    <!-- ADVENTURE WORKS -->
     <div class="project">
         <h3>Adventure Works Financial Performance Analysis</h3>
 
@@ -112,50 +112,61 @@
         <span class="tag">Finanzas</span>
         <span class="tag">ROI</span>
 
-        <p><strong>Contexto:</strong> Análisis del desempeño financiero de la empresa Adventure Works mediante datos de ventas, costos, campañas de marketing y rentabilidad por país.</p>
+        <p>Análisis del desempeño financiero de Adventure Works mediante ingresos, costos, campañas y ROI por país.</p>
+        <p>Se identificaron diferencias significativas en eficiencia de marketing entre regiones.</p>
 
-        <p><strong>Análisis:</strong> Se utilizaron consultas SQL para calcular ingresos, costos operativos, inversión en marketing, margen de beneficio y ROI por territorio. Se realizó una comparación entre países para evaluar la eficiencia del gasto en campañas y su impacto en la rentabilidad del negocio.</p>
-
-        <p><strong>Conclusiones:</strong> Estados Unidos presentó el mayor ROI, demostrando una alta eficiencia en la inversión de marketing. En contraste, países como Alemania, Reino Unido y Francia mostraron menor retorno, lo que sugiere oportunidades de optimización en la asignación del presupuesto. Australia mantiene buenos ingresos, pero con un ROI relativamente menor debido a una mayor inversión en campañas.</p>
-
-        <p><strong>Visualización:</strong></p>
-        <img src="Grafico Trafico & GDP.jpeg" width="100%">
+        <img src="adventure_works_roi_by_country.png" width="100%">
     </div>
 
-    <!-- 2 RETENTION -->
+    <!-- MERCADO LIBRE -->
     <div class="project">
-        <h3>Mercado Libre Retention Analysis (D7–D28)</h3>
+        <h3>Mercado Libre Funnel & Retention Analysis</h3>
 
         <span class="tag">SQL</span>
-        <span class="tag">Retention</span>
-        <span class="tag">Cohort Analysis</span>
+        <span class="tag">Cohortes</span>
+        <span class="tag">Retención</span>
 
-        <p><strong>Contexto:</strong> Análisis de retención de usuarios en una plataforma de e-commerce en Latinoamérica.</p>
+        <p>Análisis del embudo de conversión y retención de usuarios en e-commerce.</p>
+        <p>Se identificaron caídas en etapas del funnel que afectan la conversión final.</p>
 
-        <p><strong>Análisis:</strong> Se midieron tasas de retención en distintos intervalos (D7, D14, D21, D28) utilizando SQL y agregaciones por país.</p>
-
-        <p><strong>Conclusiones:</strong> Se observó una caída progresiva en la retención en todos los países, con patrones similares de churn entre mercados.</p>
-
-        <p><strong>Visualización:</strong></p>
         <img src="Tabla MELI retention.jpeg" width="100%">
     </div>
 
-    <!-- 3 UBER -->
+    <!-- RETAIL DASHBOARD -->
     <div class="project">
-        <h3>Uber Business Performance Analysis</h3>
+        <h3>Retail Sales Performance Dashboard (Google Sheets)</h3>
 
-        <span class="tag">SQL</span>
-        <span class="tag">Negocio</span>
-        <span class="tag">Rentabilidad</span>
+        <span class="tag">BI</span>
+        <span class="tag">KPIs</span>
+        <span class="tag">Excel / Sheets</span>
 
-        <p><strong>Contexto:</strong> Evaluación del desempeño operativo y de marketing de una plataforma de movilidad tipo Uber.</p>
+        <p>Dashboard con KPIs de ventas por departamento y eficiencia por metro cuadrado.</p>
+        <p>Se identificó concentración de ventas en pocos departamentos clave.</p>
 
-        <p><strong>Análisis:</strong> Uso de SQL para analizar rentabilidad por vehículo, tendencias de demanda y retorno de campañas publicitarias.</p>
-
-        <p><strong>Conclusiones:</strong> Se propusieron estrategias para mejorar la asignación de recursos y aumentar la rentabilidad del negocio.</p>
+        <img src="retail_dashboard_kpis.png" width="100%">
     </div>
 
-    <!-- 4 URBAN -->
+    <!-- WALMART (NUEVO) -->
+    <div class="project">
+        <h3>Walmart Sales Performance Analysis</h3>
+
+        <span class="tag">SQL</span>
+        <span class="tag">Retail</span>
+        <span class="tag">Business Analysis</span>
+
+        <p>
+            Análisis del desempeño de ventas por categoría y región en un entorno retail tipo Walmart,
+            evaluando patrones de consumo y eficiencia de productos.
+        </p>
+
+        <p>
+            Se identificaron categorías con mayor rentabilidad y oportunidades de optimización en inventario.
+        </p>
+
+        <img src="walmart_sales_analysis.png" width="100%">
+    </div>
+
+    <!-- URBAN MOBILITY -->
     <div class="project">
         <h3>Urban Mobility & Economic Development Analysis</h3>
 
@@ -163,13 +174,9 @@
         <span class="tag">Pandas</span>
         <span class="tag">Visualización</span>
 
-        <p><strong>Contexto:</strong> Análisis de la relación entre movilidad urbana y desarrollo económico en distintas ciudades.</p>
+        <p>Análisis de congestión urbana y su relación con indicadores económicos.</p>
+        <p>Se observó correlación entre actividad económica y niveles de tráfico en ciudades.</p>
 
-        <p><strong>Análisis:</strong> Uso de Python para limpiar y analizar datos de tráfico y economía.</p>
-
-        <p><strong>Conclusiones:</strong> Se encontró relación entre congestión urbana y actividad económica.</p>
-
-        <p><strong>Visualización:</strong></p>
         <img src="Grafico Trafico & GDP.jpeg" width="100%">
     </div>
 
@@ -183,7 +190,7 @@
 </section>
 
 <footer>
-    Portafolio MVP - Entregable No.2 - Data Analyst Bootcamp
+    Portafolio MVP - Data Analyst Bootcamp
 </footer>
 
 </body>
